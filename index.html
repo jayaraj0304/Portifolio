@@ -1,13 +1,760 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>HTML + CSS</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <h1>This is a simple HTML + CSS template!</h1>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alex - Software Engineer</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#">
+        <h1 class="logo">Alex</h1>
+      </a>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
+        <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" class="close-icon"></ion-icon>
+      </button>
+
+      <nav class="navbar container">
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+          <li>
+            <a href="#education" class="navbar-link" data-nav-link>Education</a>
+          </li>
+          <li>
+            <a href="#experience" class="navbar-link" data-nav-link>Experience</a>
+          </li>
+
+          <li>
+            <a href="#projects" class="navbar-link" data-nav-link>Projects</a>
+          </li>
+
+          <li>
+            <a href="#techstack" class="navbar-link" data-nav-link>Tech Stack</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+          <li>
+            <a href="https://drive.google.com/file/d/1vV2OSPp7YxQmujjkCnneABok7LOpIsRz"class="btn btn-primary">Download CV</a>
+          </li>
+
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <div class="hero-banner">
+
+            <img src="./assets/images/musk-banner.jpg" width="800" height="864" loading="lazy" alt="Ethan's Photo"
+              class="img-cover">
+
+            <div class="elem elem-1">
+              <p class="elem-title">12</p>
+
+              <p class="elem-text">Years of Success</p>
+            </div>
+
+            <div class="elem elem-2">
+              <p class="elem-title">800+</p>
+
+              <p class="elem-text">Projects Completed</p>
+            </div>
+
+            <div class="elem elem-3">
+              <ion-icon name="trophy"></ion-icon>
+            </div>
+
+            <img src="./assets/images/rotate-img.png" width="169" height="172" alt="I'm developer from New York"
+              class="rotate-img">
+
+          </div>
+
+          <div class="hero-content">
+
+            <h2 class="hero-title">
+              <span>Hello I'm</span>
+              <strong>Alex</strong> Software Engineer
+            </h2>
+
+            <p class="hero-text">
+              always enthustatic to work on new languages
+            </p>
+
+            <div class="btn-group">
+              <a href="#contact" class="btn btn-primary blue">Contact Me</a>
+
+              <a href="#about" class="btn">About Me</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/phone-banner.jfif" width="800" height="652" loading="lazy" alt="Ethan's Photo"
+              class="img-cover">
+
+            <img src="./assets/images/2-banner.jfif" width="800" height="717" loading="lazy" alt="Ethan's Photo"
+              class="abs-img">
+
+            <div class="abs-icon abs-icon-1">
+              <ion-icon name="logo-css3"></ion-icon>
+            </div>
+
+            <div class="abs-icon abs-icon-2">
+              <ion-icon name="logo-javascript"></ion-icon>
+            </div>
+
+            <div class="abs-icon abs-icon-3">
+              <ion-icon name="logo-angular"></ion-icon>
+            </div>
+
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">I'm a Developer</p>
+
+            <h2 class="h2 section-title">I Develop Application that Help People</h2>
+
+            <p class="section-text">
+              I’m Alex, a software engineer with a deep passion for creating scalable and efficient
+              web applications. My journey began with a fascination for technology and has evolved
+              into a career focused on solving complex problems through innovative solutions. I excel
+              in leading development teams and designing systems that enhance user experiences.
+              My approach combines a strong analytical mindset with a keen eye for detail, ensuring
+              high-quality outcomes. I thrive in dynamic environments and am dedicated to
+              continuous learning and growth, always seeking to stay ahead of industry trends and
+              emerging technologies.
+            </p>
+
+            
+
+          </div>
+
+        </div>
+      </section>
+     <!-- 
+  - #EDUCATION
+-->
+         <section class="section education" id="education">
+          <div class="container">
+          <figure class="education-banner">
+            <img src="./assets/images/edu2.jpeg" width="300" height="168" loading="lazy"  alt="Education Banner"class="edu-cover">
+          </figure>
+          <div class="education-content">
+         <p class="section-subtitle">My Education</p>
+          <h2 class="h2 section-title">Educational Background</h2>
+         <ul class="education-list">
+         <li class="education-item">
+          <h3 class="education-degree"><strong>B.Tech in Computer Science and Engineering</strong></h3>
+         <p class="education-institute">Indian Institute of Technology (IIT) Bombay</p>
+         <p class="education-duration">Graduated: 2019 | CGPA: 9.9</p>
+         <p class="education-description">
+          Focused on software development, data structures, algorithms, and systems programming. Completed projects involving machine learning and distributed systems.
+         </p>
+         </li>
+
+         <li class="education-item">
+        <h3 class="education-degree">M.Tech in Software Engineering</h3>
+        <p class="education-institute">National Institute of Technology (NIT) Trichy</p>
+        <p class="education-duration">Graduated: 2021 | CGPA: 9.69</p>
+        <p class="education-description">
+          Specialized in advanced software development methodologies, project management, and cloud computing. Developed a thesis on scalable web applications.
+        </p>
+          </li>
+        </ul>
+        </div>
+     </section>
+     <!-- EXPERIENCE-->
+     <section class="experience" id="experience">
+      <h1 class="section-title"style="text-align: center;">Experience</h1>
+      <p class="section-text"><h3></h3>Here is a summary of my professional experiences:</h3></p>
+      <div class="experience-list">
+        <div class="experience-item">
+          <h4 class="role">Front-End Development Intern</h4>
+          <p class="company">Web Creators India, Delhi</p>
+          <p class="dates">June 2016 - August 2016</p>
+          <p>Assisted in designing and implementing user interfaces using HTML, CSS, and JavaScript. Worked on improving website responsiveness and cross-browser compatibility. Contributed to the development of a new customer feedback portal.</p>
+        </div>
+        <div class="experience-item">
+          <h4 class="role">Machine Learning Intern</h4>
+          <p class="company">AI Innovations, Mumbai</p>
+          <p class="dates">January 2017 - June 2017</p>
+          <p>Participated in building machine learning models for predictive analytics. Assisted in data cleaning, feature extraction, and model training using Python. Collaborated with senior data scientists on deploying models into production environments.</p>
+        </div>
+        <div class="experience-item">
+          <h4 class="role">Junior Software Developer</h4>
+          <p class="company">Code Base Ltd., Chennai</p>
+          <p class="dates">August 2017 - December 2019</p>
+          <p>Worked on developing backend services using Python and Django. Participated in designing RESTful APIs and integrating them with front-end applications. Conducted unit testing and debugging, and contributed to the development of internal tools to streamline workflows.</p>
+        </div>
+        <div class="experience-item">
+          <h4 class="role">Senior Software Engineer</h4>
+          <p class="company">NextGen Technologies, Bangalore</p>
+          <p class="dates">January 2020 - Present</p>
+          <p>Led the development of a high-traffic e-commerce platform. Implemented scalable solutions using AWS and Docker, and optimized performance for handling large volumes of transactions. Coordinated with product managers to define requirements and deliver high-quality software.</p>
+        </div>
+      </div>
+      </section>
+    
+
+
+
+
+      <!-- 
+        - #PROJECTS
+      -->
+
+      <section class="section portfolio" id="projects">
+        <div class="container">
+
+          <p class="section-subtitle">Projects</p>
+
+          <h2 class="h2 section-title">My Amazing Works</h2>
+
+          <p class="section-text">
+            The projects which are done by me are as follows
+          </p>
+
+          <ul class="portfolio-list">
+
+            <li>
+              <a href="https://github.com/sarbhanub/tableau-superstore" class="portfolio-card" style="background-image: url('./assets/images/portfolio-1.jpg')">
+                <div class="card-content">
+
+                  
+
+                  <h3 class="h3 card-title">Data Visualization Dashboard</h3>
+                  <p>
+                    <p class="card-subtitle">Details</p>
+                    Description: Built an interactive dashboard for visualizing complex datasets.
+                     The dashboard includes charts, graphs, and filters to help users explore and analyze dataeffectively.</p>
+
+                     <p>
+                      ● Technologies: JavaScript, D3.js, Tableau, Firebase
+
+                     </p>
+
+                  <span class="btn-link">
+                    <span id="view-project-1">View Project</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://github.com/username/chatbot-nlp" class="portfolio-card" style="background-image: url('./assets/images/portfolio-2.jpg')">
+                <div class="card-content">
+
+                  
+
+                  <h3 class="h3 card-title">Chatbot with NLP</h3>
+                  <p>
+                    <p class="card-subtitle">Details</p>
+                    ● Description: Created an intelligent chatbot that leverages natural language
+                      processing to handle customer queries and provide instant support. Integrated with a
+                      web interface for seamless user interaction.
+                      </p><p>● Technologies: Python, NLTK, Flask, Heroku
+                  </p>
+
+                  <span class="btn-link">
+                    <span id="view-project-2">View Project</spn>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://github.com/karthikeyaspace/shortifyy" class="portfolio-card" style="background-image: url('./assets/images/portfolio-3.jpg')">
+                <div class="card-content">
+
+                  
+
+                  <h3 class="h3 card-title">Url Shortener App</h3>
+                  <p class="card-subtitle">Details</p>
+                   <p>
+                    Description: Shortifyy is a URL shortening service that helps you to shorten your
+                    long URLs and redirects when you visit the short url. It is built using TypeScript,
+                    Tailwind CSS, Node JS, and Supabase Postgress db. It has a interactive user-friendly
+                    interface and is easy to use..
+                    </p><p>● Technologies: Reactjs, Node JS, Supabase</p>
+
+                   </p>
+                  <span class="btn-link">
+                    <span id="view-project-3">View Project</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href='https://github.com/PPraneesh/theCoderCompanion' class="portfolio-card" style="background-image: url('./assets/images/portfolio-4.jpg')">
+                <div class="card-content">
+
+                  
+
+                  <h3 class="h3 card-title">Code Editor App</h3>
+                  <p class="card-subtitle">Details</p>
+                  <p>● Description: The Coder Companion: Your gateway to intuitive programming
+                    mastery. With AI assistance and a user-friendly interface, embark on an efficient
+                    journey to tackle coding challenges with confidence.</p><p>
+                    ● Technologies: Reactjs, Gemini api
+                    </p>
+
+                  <span class="btn-link">
+                    <span>View Project</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/ageitgey/face_recognition" class="portfolio-card" style="background-image: url('./assets/images/portfolio-1.jpg')">
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Face Recognition System
+                  </h3>
+                  <p class="card-subtitle">Details</p>
+                  <p>Description: Implemented a face recognition system using pre-trained models. The
+                    system can detect and recognize faces in real-time, with applications in security and
+                    user identification</p>
+
+                     <p>
+                      ● Technologies: Python, OpenCV, dlib, face_recognition library
+
+                     </p>
+
+                  <span class="btn-link">
+                    <span >View Project</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="section skills" id="techstack">
+        <div class="container">
+
+          <p class="section-subtitle">My Skills</p>
+
+          <h2 class="h2 section-title">I Develop Skills Regularly</h2>
+
+          <p class="section-text">
+            Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehen derit in voluptate
+          </p>
+
+          <ul class="skills-list">
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 95%">
+                <h3 class=" skills-title">CSS</h3>
+
+                <data class="skills-data" value="95">95%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 95%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 75%">
+                <h3 class="skills-title">React</h3>
+
+                <data class="skills-data" value="75">75%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 75%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 90%">
+                <h3 class="skills-title">MongoDB</h3>
+
+                <data class="skills-data" value="90">90%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 90%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 70%">
+                <h3 class="skills-title">Python</h3>
+
+                <data class="skills-data" value="70">70%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 70%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 80%">
+                <h3 class="skills-title">PHP</h3>
+
+                <data class="skills-data" value="80">80%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 80%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 75%">
+                <h3 class="skills-title">JavaScript</h3>
+
+                <data class="skills-data" value="75">75%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 75%"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="wrapper" style="width: 75%">
+                <h3 class="skills-title">Java</h3>
+
+                <data class="skills-data" value="85">85%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 75%"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="wrapper" style="width: 75%">
+                <h3 class="skills-title">React.js</h3>
+
+                <data class="skills-data" value="70">70%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 75%"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="wrapper" style="width: 75%">
+                <h3 class="skills-title">node.js</h3>
+
+                <data class="skills-data" value="75">75%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 75%"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="wrapper" style="width: 75%">
+                <h3 class="skills-title">express.js</h3>
+
+                <data class="skills-data" value="75">75%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 75%"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="wrapper" style="width: 75%">
+                <h3 class="skills-title">Html5</h3>
+
+                <data class="skills-data" value="95">95%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 75%"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="wrapper" style="width: 75%">
+                <h3 class="skills-title">Css</h3>
+
+                <data class="skills-data" value="85">85%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 75%"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="wrapper" style="width: 75%">
+                <h3 class="skills-title">Tensorflow</h3>
+
+                <data class="skills-data" value="80">80%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 75%"></div>
+              </div>
+            </li>
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+       <section class="clr">
+      <section class="section contact" id="contact">
+        <div class="container">
+
+          <div class="contact-card">
+
+            <p class="card-subtitle">Don't be shy</p>
+
+            <h2 class="h2 section-title">Drop Me a Line</h2>
+
+            <div class="wrapper">
+
+              <form action="" class="contact-form">
+
+                <input type="text" name="name" placeholder="Name" required class="contact-input">
+
+                <input type="email" name="email" placeholder="Email" required class="contact-input">
+
+                <textarea name="message" placeholder="Message" required class="contact-input"></textarea>
+
+                <button type="submit" class="btn-submit">Submit Message</button>
+
+              </form>
+
+              <ul class="contact-list">
+
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="location"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">Address</h3>
+
+                    <address class="contact-item-link">
+                      Hyderabad,India
+                    </address>
+                  </div>
+
+                </li>
+
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="mail"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">Email</h3>
+
+                    <a href="mailto:vjdataquesters@gmail.com class="contact-item-link">vjdataquesters@gmail.com</a>
+                  </div>
+
+                </li>
+
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="globe-outline"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">website</h3>
+
+                    <a href="https://vjdataquesters.vercel.app/" class="contact-item-link">https://vjdataquesters.vercel.app/</a>
+                  </div>
+
+                </li>
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">website</h3>
+
+                    <a href="https://github.com/vjdataquesters" class="contact-item-link">https://github.com/vjdataquesters/</a>
+                  </div>
+
+                </li>
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">website</h3>
+
+                    <a href="https://www.instagram.com/vjdataquesters.club/"class="contact-item-link">https://www.instagram.com/vjdataquesters.club/</a>
+                  </div>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+    </section>
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        &copy; 2024 <a href="#" class="copyright-link">24075A6713</a>. All Rights Reseverd
+      </p>
+
+      <ul class="footer-list">
+        <li>
+          <a href="#" class="footer-link">Terms & Condition</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Privacy Policy</a>
+        </li>
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-to-top" data-back-to-top>BACK TOP</a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+-->
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
 </html>
