@@ -63,8 +63,8 @@ Contact
 
 If you'd like to connect or collaborate, reach out via:
 
-Email:jayarajthamatam123@gmail.com
+Email: jayarajthamatam123@gmail.com
 
-LinkedIn: [linkedin.com/in/jayaraj-thamatam1]
+LinkedIn: linkedin.com/in/jayaraj-thamatam1
 
-GitHub: [github.com/jayaraj0304]
+GitHub: github.com/jayaraj0304
